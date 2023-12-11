@@ -192,13 +192,6 @@ button{
     align-items: flex-start;
     gap: 8px;
 }
-.link-text:hover{
-    background-color: #404bbf;
-
-}
-.link-text:focus{
-    background-color: #404bbf;
-}
 
 
 .third-header{
@@ -557,6 +550,7 @@ p {
 }
 .items-portfolio:hover{
     transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .link-portfolio:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -565,5 +559,14 @@ p {
     fill: #F4F4FD;
 }
 .icon-link:hover{
-
+    background-color: #404bbf;
+}
+.icon-link:focus{
+    background-color: #404bbf;
+}
+.footer-icon-link:hover{
+    background-color: #31d0aa;
+}
+.footer-icon-link:focus{
+    background-color: #31d0aa;
 }
